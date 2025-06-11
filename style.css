@@ -130,3 +130,37 @@ body {
 .dev__challenges__link:hover {
     text-decoration: underline;
 }
+
+/**** Responsive design ****/
+
+@media screen and (max-width: 1280px) {
+    body {
+        padding: 1.42rem 1.71rem;
+    }
+
+    .main__content {
+        transform: scale(1);
+        flex-direction: column;
+        margin-bottom: 6.85rem;
+    }
+
+    .illustration {
+        margin: 4.57rem 0 4.2rem 0;
+    }
+
+    .container {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .title {
+        font-size: 40px;
+        line-height: 54px;
+    }
+
+    .infos {
+        font-size: 18px;
+        line-height: 27px;
+        padding: 2rem 0 4.78rem 0;
+    }
+}
