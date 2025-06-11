@@ -1,0 +1,132 @@
+/**** Reset ****/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/**** Variables css ****/
+
+:root {
+    --dark: #333333;
+    --dark-gray: #4f4f4f;
+    --white: #ffffff;
+}
+
+/**** body ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+    background-color: var(--white);
+}
+
+/**** header ****/
+
+.header {
+    align-self: flex-start;
+    margin-bottom: 2rem;
+}
+
+.header .logo {
+    font-family: "Inconsolata", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.logo,
+.title,
+.dev__challenges__link {
+    color: var(--dark)
+}
+
+/**** main ****/
+
+.main__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+/**** div illustration img ****/
+
+.illustration {
+    max-width: 600px;
+    height: auto;
+}
+
+.illustration img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/**** section container ****/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Space Mono", sans-serif;
+    max-width: 600px;
+    margin-left: 8.78rem;
+}
+
+.title {
+    font-size: 44px;
+    line-height: 64px;
+}
+
+.infos {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    max-width: 381px;
+    padding: 2.57rem 0 4.57rem 0;
+    color: var(--dark-gray);
+}
+
+.back__btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    width: max-content;
+    padding: 1.2em 2.6em;
+    color: var(--white);
+    background-color: var(--dark);
+    transition: background-color 0.3s ease-out;
+}
+
+.back__btn:hover {
+    background-color: var(--dark-gray);
+}
+
+/**** footer ****/
+
+.footer {
+    margin-top: 5rem;
+}
+
+.dev__challenges__link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.dev__challenges__link:hover {
+    text-decoration: underline;
+}
