@@ -1,5 +1,7 @@
 ## 404 PAGE NOT FOUND | DEV CHALLENGES
 
+![Design preview for the 404 not found project](./img/preview.png)
+
 ## Le challenge
 
 Voici ma solution au challenge sur Devchallenges.io.
